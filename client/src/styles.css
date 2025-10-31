@@ -1,0 +1,6 @@
+:root{--bg:#f3f4f6;--side:#fff;--text:#111}
+.app{display:flex;height:100vh;background:var(--bg);color:var(--text);font-family:Inter,Arial}
+.sidebar{width:260px;padding:12px;background:var(--side);box-shadow:2px 0 6px rgba(0,0,0,0.06)}
+.main{flex:1;padding:12px}
+.loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.6);color:#fff}
+.brand{display:flex;align-items:center;gap:8px;margin-bottom:12px}
